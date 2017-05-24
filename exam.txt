@@ -1,0 +1,23 @@
+--- Grade 2 ---
+
+Create a Date and a Calendar class.
+The date is a tuple of year-month-day components.
+The calendar can map events to specific dates. Create a member function in
+Calendar class which inserts an event to a specific date and create a function
+which returns the event on that day.
+
+--- Grade 3 ---
+
+Create a member function in the Calendar class which prints the events ordered
+by dates.
+
+--- Grade 4 ---
+
+Modify the Calendar class so it can contain several events on a day.
+
+--- Grade 5 ---
+
+Create a next() member function in Date class which returns the date of the next
+day.
+Inherit a Workday class from Date class and override its next() function. This
+should return the next workday, i.e. the next day, skipping Saturday and Sunday.
